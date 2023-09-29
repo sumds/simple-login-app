@@ -4,7 +4,7 @@ import { validateLogin } from '../../utils/validation';  // Import the validatio
 const Login = (props) => {
   // Sample credentials for validation
   const SAMPLE_USERNAME = 'admin';
-  const SAMPLE_PASSWORD = 'password123';
+  const SAMPLE_PASSWORD = 'Password@123';
 
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
